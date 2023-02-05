@@ -31,3 +31,9 @@ li{
 h3{
     font-size: 20px;
 }
+
+hr{
+  border: 1px dotted ; 
+    justify-content: left;
+
+}
