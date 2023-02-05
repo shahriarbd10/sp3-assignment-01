@@ -1,3 +1,8 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
 .white-color{
     color: white;
 }
@@ -6,3 +11,23 @@
     background-color: rgb(240, 0, 112);
 }
 
+.title-box{
+    background-color: rgba(110, 255, 207, 0.548);
+    width: fit-content;
+    border: 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p{
+    font-size: 19px;
+}
+
+li{
+    font-size: 19px;
+
+}
+
+h3{
+    font-size: 20px;
+}
