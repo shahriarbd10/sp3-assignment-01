@@ -1,5 +1,6 @@
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
     
 }
 
@@ -8,15 +9,19 @@
 }
 
 .pink-bg{
-    background-color: rgb(240, 0, 112);
+    background-color: rgba(110, 216, 235, 0.336);
 }
 
 .title-box{
-    background-color: rgba(110, 255, 207, 0.548);
+    background-color: rgba(10, 189, 150, 0.842);
     width: fit-content;
     border: 2px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 9px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 p{
@@ -33,7 +38,37 @@ h3{
 }
 
 hr{
-  border: 1px dotted ; 
-    justify-content: left;
+  border: 1px solid rgba(128, 128, 128, 0.432) ; 
+    width: auto;
+    margin-bottom: 12px;
 
+}
+
+.full-body{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+img{
+
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.left-side{
+   background-color: rgba(180, 240, 248, 0.336);
+   border-right: 2.5px solid rgba(80, 226, 219, 0.473);
+   border-radius: 2px;
+   color: black;
+   margin-right: 20px;
+   width: auto;
+   padding: 60px 20px;
+   
+}
+
+.right-side{
+    
+    width: 100%;
 }
